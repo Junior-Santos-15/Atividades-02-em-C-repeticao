@@ -25,6 +25,8 @@ int main()
             }
     }
 
+    system("cls");
+
     // Resolução de resposta
 
     printf("Número par : %d\n", par);
