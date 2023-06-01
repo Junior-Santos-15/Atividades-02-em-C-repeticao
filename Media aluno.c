@@ -18,13 +18,15 @@ int main()
             scanf("%f", &nota);
         } while (nota < 0 || nota > 10);
 
+
         fflush(stdin); // limpa cache
+
 
         printf("Deseja inserir mais uma nota? ");
         gets(resposta);
 
-        // Contador + 1
 
+        // Contador + 1
         contador++;
 
         // somaNotas = somaNotas + nota;
